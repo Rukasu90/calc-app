@@ -1,12 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Result = (props) => {
-    debugger
-    console.log("Renderizacion de Result", props)
+const Result = ({ value }) => {
+    console.log("Renderizacion de Result", value)
     return (
         <div className="result">
-           {props.value} 
+           {value} 
         </div>
     )
 }
+
+Result.propTypes = {
+    value: PropTypes.string.isRequired
+} 
+
 export default Result
