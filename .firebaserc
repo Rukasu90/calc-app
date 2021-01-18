@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "rukasu-calc-app1"
+    "default": "rukasu-calc-app1",
+    "react-calculator": "rukasu-calc-app1"
   }
 }
